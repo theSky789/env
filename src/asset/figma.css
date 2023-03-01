@@ -1,0 +1,40 @@
+.mail{
+  margin-top: 30px;
+}
+.flex-row{
+  display: flex;
+  gap: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mail__part1__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  color: var(--title-color);
+}
+.highlight {
+  color: var(--title-hcolor);
+}
+
+.mail__part1__content {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--content-color);
+}
+@media (min-width: 320px) and (max-width: 480px)
+{
+  .flex-row{
+align-items: stretch;
+    flex-direction: column;
+  }
+  .im img{
+    width: 100%;
+    height: 100%;
+  }
+}

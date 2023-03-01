@@ -1,0 +1,42 @@
+.question {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+.question__title {
+  text-align: center;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  color: var(--title-color);
+}
+.question__content {
+  margin: 0 20px 20px 20px;
+}
+.question__content h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 157.4%;
+  color: var(--title-color);
+}
+
+.question__content p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--content-color);
+}
+.inner-divs{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}

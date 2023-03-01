@@ -1,0 +1,120 @@
+*{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+color: #444444;
+list-style: none;
+}  
+
+.container11{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  flex-direction: row; 
+  margin: auto;
+  }
+  .container-div{  
+  box-sizing: border-box;
+  width: 24%; 
+  border: 1px solid #E1E1E1;
+  border-radius: 20px;
+  margin: 15px;
+  }
+  .container-div-innerdiv{
+    width: 100%;
+    
+    background: #F5FAFE; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .inner-div-zero{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .inner-div-free{
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 28px;
+color: rgba(68, 68, 68, 0.76);
+margin-top: 34px;
+  }
+  .dollar{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 13px;
+/* identical to box height */
+
+
+color: rgba(68, 68, 68, 0.76);
+
+
+  }
+  .zero{
+    font-weight: 700;
+font-size: 48px;
+line-height: 52px;
+text-align: center;
+
+color: rgba(68, 68, 68, 0.75);
+
+
+  }
+  .innerdiv-plan2{
+    padding-bottom: 18px;
+    padding-top: 18px;
+    border-top:  0.5px solid #E1E1E1;
+    border-bottom:  0.5px solid #E1E1E1;
+    
+  }
+  .innerdiv-plan1{
+    padding-bottom: 18px;
+    padding-top: 18px;
+    
+    
+  }
+  .btn-select{
+    background: #FE7C6E;
+border-radius: 240px;
+border:none;
+color: white;
+width: 50%;
+margin-top: 11px;
+margin-bottom: 35px;
+  }
+  .ff{
+    margin-bottom: 110px;
+  }
+  .mx-0{
+   margin-bottom: 40px;
+  }
+.container-div-innerdiv .recommend{
+    
+    
+  transform: translate(63px, 0px);
+  display: flex;
+  width: 40%;
+  }
+  .tick{
+    padding-right: 16px;
+
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+    .container11{
+      flex-direction: column;
+      width: 100%;
+    }
+    .container-div{  
+      width: 100%;
+    }
+  }
